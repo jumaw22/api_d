@@ -1,9 +1,10 @@
 {
   "name": "async-await-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Jumar",
@@ -13,6 +14,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
-    "mongoose": "^8.13.2"
+    "glob": "^11.0.1",
+    "lru-cache": "^11.1.0",
+    "mongoose": "^8.13.2",
+    "uuid": "^11.1.0"
   }
 }
